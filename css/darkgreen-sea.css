@@ -1,0 +1,15 @@
+body {
+ background-color: #255965;
+}
+div{
+ background-color:#032a33;
+ display: block;
+ color: #f1d18a;
+ border: 3px solid #255965;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+a{
+ font-weight: bold;
+ color: #f1d18a;
+}

@@ -1,0 +1,11 @@
+0.2 [Descargar](02.zip) (11,6k)
+- carpeta /func para parsedown.php y otras funciones que se integren. (index.php, línea 3)
+- carpeta /css para administrar estilos desde config.php, línea 4. (index.php, línea 14)
+
+0.1 [Descargar](01.zip) (11,3k)
+- genera `<title>` desde config (config.php, línea 8)
+- genera menú cabecera con archivos .md, reemplazando _ por espacio y dejando primera letra con mayúscula. (config.php, línea 15 a 25)
+- genera cabecera con título y subtítulo (config.php, línea 27)
+- lee .md usando parsedown.php. Agrega nombre de página a `<title>` (config.php, línea 28)
+- si página no existe llama a $noexiste de config, presentando un pseudo error 404. (config.php, línea 29)
+- genera píe de página (config.php, línea 34)
